@@ -34,15 +34,16 @@
 
             <div class = "wrapper">
                 <h2 class = "page-title">Contact</h2>
+                <p><span style="color: red;">*</span>は入力必須です</p>
                 <form action = "#" method="post">
                     <div>
-                        <label for = "name">お名前</label>
-                        <input type = "text" id = "name" name = "your-name">
+                        <label for = "name">お名前<span style="color: red;">*</span></label>
+                        <input type = "text" id = "name" name = "your-name" required>
                     </div>
 
                     <div>
-                        <label for = "e-mail">メールアドレス</label>
-                        <input type = "email" id = "email" name = "your-email">
+                        <label for = "e-mail">メールアドレス<span style="color: red;">*</span></label>
+                        <input type = "email" id = "email" name = "your-email" required>
                     </div>
                     
                     <div>
